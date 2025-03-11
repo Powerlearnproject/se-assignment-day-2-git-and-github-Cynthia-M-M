@@ -19,15 +19,20 @@
      
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
- >Steps involved in setting up new repository?
-    - creating github account by navigating through the browser, typing github.com if already have sign in and navigate to the repository tab.
-    - click 'New' to create a repository.
-    - enter desired repository name and description is optional.
-    - choose visibility if you want your project to be open to all select public and if otherwise choose private.
-    - Initialize README which is optional and can be used to write documentation. 
-     - add a .gitignore file which is optional and helps in excluding unnecessary files.
-      - choosing a licence which is optional but helps in usage rights.
-      - then Click 'create Repository' to finish the setup. 
+ >Steps involved in setting up new repository
+  - creating github account by navigating through the browser, typing github.com if already have sign in and navigate to the repository tab.
+  - click 'New' to create a repository.
+  - enter desired repository name and description is optional.
+  - choose visibility if you want your project to be open to all select public and if otherwise choose private.
+ - Initialize README which is optional and can be used to write documentation.
+ - add a .gitignore file which is optional and helps in excluding unnecessary files.
+  - choosing a licence which is optional but helps in usage rights.
+  - then Click 'create Repository' to  finish the setup.
+>some of the important decisions to be made
+  - Repository visibility. 
+  - the need for a README. 
+  - If to use a .gitignore file. 
+  - whether to select a license.  
 
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
@@ -62,20 +67,20 @@
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 >Steps in making first commit:
-  git innit - initialises git
-  git add - adds files
-  git commit -m "This is hard" - creates a commit
-  git remote add origin <repo_url> - to connect to github. 
-  git push -u origin main - to push to github
+  - git innit - initialises git
+  - git add - adds files
+  - git commit -m "This is hard" - creates a commit
+  - git remote add origin <repo_url> - to connect to github. 
+  - git push -u origin main - to push to github
 >Commits work as snapshot of project helping in tracking changes and managing different versions over time. 
 
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 >Branching enables developers to create changes avoiding conflicts while working on features.
 >Process of creating, using and merging branches in a typical workflow:
-  git checkout -by - to create a branch
-  feature-branch - to make changes and commit
-  git push origin feature-branch - used to merge changes via pull request.
+  - git checkout -by - to create a branch
+  - feature-branch - to make changes and commit
+  - git push origin feature-branch - used to merge changes via pull request.
   >why branching is an important feature:
    - one can carry out bug fixes without disrupting other contributors
    - suitable to maintain stable codebases. 
